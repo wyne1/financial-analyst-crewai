@@ -18,14 +18,9 @@ The system consists of two main components:
 1. A Jupyter Notebook that showcases the CrewAI implementation
 2. A Flask web application that provides a user interface for interacting with the CrewAI system
 
-### Home
+### Streamlit APP
 <a target="_blank">
-    <img src="images/home2.png" />
-</a>
-
-### Strategy Output
-<a target="_blank">
-    <img src="images/output2.png" />
+    <img src="images/home3.png" />
 </a>
 
 ## System Architecture
