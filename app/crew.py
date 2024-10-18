@@ -33,7 +33,7 @@ def create_financial_trading_crew(llm_type='openai'):
 
     if llm_type == 'openai':
         # llm_adapter = OpenAIAdapter()
-        llm_adapter = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.7)
+        llm_adapter = ChatOpenAI(model="gpt-4o", temperature=0.7)
     elif llm_type == 'gemini':
         llm_adapter = GeminiChatAdapter()  # Instantiate the Gemini adapter
 

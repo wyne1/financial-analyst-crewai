@@ -20,12 +20,12 @@ The system consists of two main components:
 
 ### Home
 <a target="_blank">
-    <img src="images/home.png" />
+    <img src="images/home2.png" />
 </a>
 
 ### Strategy Output
 <a target="_blank">
-    <img src="images/result.png" />
+    <img src="images/output2.png" />
 </a>
 
 ## System Architecture
@@ -42,6 +42,9 @@ The project is structured as follows:
    - `app/utils.py`: Contains utility functions for environment setup
    - `templates/`: HTML templates for the web interface
    - `static/`: CSS and other static files for the web interface
+
+3. Streamlit Application:
+    - `app.py`: Entry point for the Streamlit application
 
 ## Approach
 
@@ -88,6 +91,13 @@ To run this project locally:
    ```
    python -m app.main
    ```
+OR
+
+4. Run the Streamlit application:
+   ```
+   streamlit run app.py
+   ```
+
 
 For a detailed demonstration of the CrewAI implementation, refer to the `collaboration_financial_analysis.ipynb` notebook.
 
