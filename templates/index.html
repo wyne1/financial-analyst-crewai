@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Trading Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Financial Trading Analysis</h1>
+        <form method="POST">
+            <div class="form-group">
+                <label for="stock_selection">Cryptocurrency Pair:</label>
+                <input type="text" id="stock_selection" name="stock_selection" required>
+            </div>
+
+            <div class="form-group">
+                <label for="initial_capital">Initial Capital:</label>
+                <input type="number" id="initial_capital" name="initial_capital" required>
+            </div>
+
+            <div class="form-group">
+                <label for="risk_tolerance">Risk Tolerance:</label>
+                <select id="risk_tolerance" name="risk_tolerance" required>
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="trading_strategy_preference">Trading Strategy Preference:</label>
+                <select id="trading_strategy_preference" name="trading_strategy_preference" required>
+                    <option value="Short Term">Short Term</option>
+                    <option value="Medium Term">Medium Term</option>
+                    <option value="Long Term">Long Term</option>
+                </select>
+            </div>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="news_impact_consideration" name="news_impact_consideration">
+                <label for="news_impact_consideration">Consider News Impact</label>
+            </div>
+
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+</body>
+</html>

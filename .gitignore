@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Flask
+instance/
+.webassets-cache
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Dependency directories
+node_modules/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Environments
+.env
+.venv
